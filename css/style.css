@@ -79,13 +79,13 @@ body {
 /* How to override the default Bootstrap colors */
 
 .btn-primary {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #E28E44;
+  border-color: #E28E44;
 }
 
 .btn-primary:hover {
-  background-color: #16a085;
-  border-color: #16a085;
+  background-color: #424147;
+  border-color: #424147;
 }
 
 /* How to override the default Bootstrap navbar */
