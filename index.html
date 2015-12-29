@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>The problem project - Générateur de solution</title>
+    <title>The problem project - Générateur de solutions</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -70,13 +70,27 @@
         <h1>Vous êtes face à un problème ?  </h1>
         <h2>Trouvons ensemble la route vers la solution</h2>
         <br>
-        <p>
-          <a href="#" class="btn btn-primary btn-lg">Je renseigne mon problème</a>
-        </p>
+        
+    <div class="form-style-8">
+  <form method="post" action="traitement.php">
+    <input type="text" name="field1" placeholder="Votre nom" />
+    <input type="email" name="field2" placeholder="Votre email" />
+    <textarea placeholder="Votre problème" onkeyup="adjust_textarea(this)"></textarea>
+    <input type="button" value="Je renseigne mon problème" />
+  </form>
+</div>
+
+
+
       </div>
     </div>
 
+<!-- /HTML FORMULAIRE -->
 
+
+
+
+<!-- /HTML FORMULAIRE -->
 
 
     <div class="vertical-spacer"></div>
